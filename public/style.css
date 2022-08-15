@@ -1,0 +1,81 @@
+@font-face {
+  font-family: ubuntu-r;
+  src: url("assets/fonts/UbuntuMono-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins";
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  background-color: rgb(60, 60, 60);
+  margin: 15% auto auto auto;
+  max-width: 400px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 200px;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px rgb(194, 194, 194);
+  border-radius: 18px;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  font-family: ubuntu-r, Roboto mono;
+  padding: 12px;
+}
+
+.title {
+  padding: 14px;
+  color: rgb(225, 225, 225);
+  font-size: 8px;
+}
+
+.content {
+  color: rgb(225, 225, 225);
+  text-align: start;
+}
+
+.social {
+  margin-top: 12px;
+  padding: 12px 12px 12px 0;
+  display: flex;
+  gap: 8px;
+}
+
+.github img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.linkedin img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+.twitter img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.github:hover {
+  filter: invert(68%) sepia(50%) saturate(1076%) hue-rotate(86deg);
+}
+
+.linkedin:hover {
+  filter: invert(60%) sepia(59%) saturate(2476%) hue-rotate(86deg);
+}
+.twitter:hover {
+  filter: invert(50%) sepia(69%) saturate(2476%) hue-rotate(86deg);
+}
+
+/* <a target="_blank" href="https://icons8.com/icon/101795/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */
